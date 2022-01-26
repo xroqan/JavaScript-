@@ -12,11 +12,6 @@ const Person = require('./person')
 
 const Meetup = require ('./meetup')
 
-    
-
-
-
-
 const vusal = new Person('Vusal', 30)
 const vasif = new Person('Vasif', 28)
 printName = person => console.log(person.name, person.age)
