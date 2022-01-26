@@ -9,25 +9,17 @@ const multiply = (num1,num2) => num1 * num2
   console.log(multiplyResult)
     
 const Person = require('./person')
-class Meetup  {
-    constructor(name){
-        this.name = name
-        this.attendees = []
-    }
 
-    printAttendeeNames(){
-         //  console.log(this.attendees[0].name)
-        //console.log(this.attendees[1].name)
-        //console.log(this.attendees[2].name)
-        this.attendees.forEach(printName)
-    }
-}
+const Meetup = require ('./meetup')
 
-printName = person => console.log(person.name, person.age)
+    
+
+
+
 
 const vusal = new Person('Vusal', 30)
 const vasif = new Person('Vasif', 28)
-
+printName = person => console.log(person.name, person.age)
  vusal.greet(vasif)
  const wtmb = new Meetup ('Uni Bamberg')
  vusal.attend(wtmb)
