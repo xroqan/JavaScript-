@@ -8,7 +8,7 @@ const multiply = (num1,num2) => num1 * num2
  const multiplyResult = multiply (additionalResult,2)
   console.log(multiplyResult)
     
-
+const Person = require('./person')
 class Meetup  {
     constructor(name){
         this.name = name
